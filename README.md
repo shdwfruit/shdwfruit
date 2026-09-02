@@ -15,7 +15,7 @@ Local-first tools, full-stack products, and the occasional game.
 
 ### Currently
 
-Building **[convkit](https://github.com/shdwfruit/convkit)** — a single command for everyday file conversion that runs entirely on your machine. Just shipped `0.2.0` with a Homebrew tap.
+Making **[convkit](https://github.com/shdwfruit/convkit)**. I didn't want to use online file format converters, and I was using yt-dlp, so it inspired me to make a local file converter that has the ease of yt-dlp. Everyday file conversion that runs entirely on your machine
 
 ---
 
@@ -39,9 +39,9 @@ Building **[convkit](https://github.com/shdwfruit/convkit)** — a single comman
 
 #### [convkit](https://github.com/shdwfruit/convkit) &nbsp;·&nbsp; Rust &nbsp;·&nbsp; ★4
 
-One command for everyday file conversion. Maps a source and target format onto an expert-tuned invocation of the right backend — ffmpeg, ImageMagick, LibreOffice, pandoc, or Typst — across **115 conversion pairs and 27 formats**.
+One command for everyday file conversion. Maps a source and target format onto an expert-tuned invocation of the right backend (ffmpeg, ImageMagick, LibreOffice, pandoc, or Typst) across **115 conversion pairs and 27 formats**.
 
-When the source codecs already fit the target container it remuxes instead of re-encoding: lossless, and measured **3.3×–71.7× faster**. Files never leave your machine.
+When the source codecs already fit the target container it remuxes instead of re-encoding: lossless, and measured **3.3×–71.7× faster** plus everything is local.
 
 `Rust` · `ffmpeg` · `Homebrew tap`
 
@@ -52,7 +52,7 @@ When the source codecs already fit the target container it remuxes instead of re
 
 A fog-of-war map of Tokyo reconstructed from an IRL streamer's walk-and-talk archive. Every route walked on camera permanently reveals a 100 m core and a 250 m halo; the rest of the city stays in fog, and each street links back to the video and timestamp where it was first walked.
 
-There is **no GPS feed** — routes are rebuilt from published video by extracting location evidence from transcripts and frames, geocoding it, and interpolating pedestrian paths between confident anchors. Ten-stage pipeline, 60 tests green.
+There is **no GPS feed**; routes are rebuilt from published video by extracting location evidence from transcripts and frames, geocoding it, and interpolating pedestrian paths between confident anchors using a 10-stage pipeline.
 
 `LLM extraction` · `geocoding` · `ffmpeg` &nbsp;—&nbsp; <sub>source private</sub>
 
@@ -63,9 +63,9 @@ There is **no GPS feed** — routes are rebuilt from published video by extracti
 
 #### [alltold](https://life-manager-jade-beta.vercel.app) &nbsp;·&nbsp; TypeScript
 
-A multi-dashboard personal operating system — sign in with Google, pick a template, and fill a single viewport with widgets. *Your life, at a glance.*
+A multi-dashboard personal organization app. Sign in with Google, pick a template, and fill a single viewport with widgets
 
-React 18 + Vite + Zustand on the front, Express + Drizzle ORM + Neon Postgres behind it, deployed across Vercel and Railway. The landing page renders the **real widgets** with seeded demo data, not screenshots.
+React 18 + Vite + Zustand on the front, Express + Drizzle ORM + Neon Postgres behind it, deployed across Vercel and Railway. Check out the landing page, very proud of it.
 
 `React` · `Drizzle` · `Neon` &nbsp;—&nbsp; <sub>live demo · source private</sub>
 
@@ -74,9 +74,9 @@ React 18 + Vite + Zustand on the front, Express + Drizzle ORM + Neon Postgres be
 
 #### PokéCenter Listener &nbsp;·&nbsp; Python
 
-A desktop app that watches Discord channels for Pokémon product drop alerts (Pokémon Center, Walmart, Costco) and opens the retailer link the moment one lands — including queue detection with an instant browser launch.
+A desktop app that watches Discord channels for Pokémon product drop alerts (Pokémon Center, Walmart, Costco) and opens the retailer link the moment one appears. It includes queue detection with an instant browser launch.
 
-PySide6 for the dark-themed UI, FastAPI and `discord.py` for the bridge, with license-based device authentication and native notifications on Windows and macOS.
+PySide6 for the dark-themed UI, FastAPI and `discord.py` for the bridge, with license-based device authentication and native notifications on Windows and macOS. Used Pub-Sub architecture with websockets for international reach and fast speed.
 
 `PySide6` · `FastAPI` · `discord.py` &nbsp;—&nbsp; <sub>source private</sub>
 
@@ -87,7 +87,7 @@ PySide6 for the dark-themed UI, FastAPI and `discord.py` for the bridge, with li
 
 #### [Mastermind](https://github.com/shdwfruit/mastermind) &nbsp;·&nbsp; Java
 
-The classic color-sequence deduction game, written from scratch in a single self-contained Java file — board state, guess scoring, and the interactive loop, with no external dependencies.
+The classic color-sequence deduction game, written from scratch in a single self-contained Java file. Has board state, guess scoring, and the interactive loop, with no external dependencies.
 
 `Java`
 
@@ -101,8 +101,6 @@ The classic color-sequence deduction game, written from scratch in a single self
 [**concentration**](https://github.com/shdwfruit/concentration) — the memory card game, in Java.
 
 [**apple_website**](https://github.com/shdwfruit/apple_website) — a recreation of Apple's marketing site.
-
-[**homebrew-tap**](https://github.com/shdwfruit/homebrew-tap) — the tap that serves `convkit`.
 
 </td>
 </tr>
