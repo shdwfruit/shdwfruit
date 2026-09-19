@@ -4,7 +4,7 @@
 
 **CS @ Northeastern University**
 
-Local-first tools, full-stack products, and the occasional game.
+I try to make tools, products, and games
 
 <a href="mailto:rxie28@gmail.com"><img src="https://img.shields.io/badge/rxie28%40gmail.com-2F81F7?style=flat-square&logo=gmail&logoColor=white" alt="Email"></a>
 <a href="https://github.com/shdwfruit?tab=repositories"><img src="https://img.shields.io/badge/Repositories-2F81F7?style=flat-square&logo=github&logoColor=white" alt="Repositories"></a>
