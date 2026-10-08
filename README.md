@@ -37,7 +37,7 @@ Making **[convkit](https://github.com/shdwfruit/convkit)**. I didn't want to use
 <tr>
 <td width="50%" valign="top">
 
-#### [convkit](https://github.com/shdwfruit/convkit) &nbsp;·&nbsp; Rust &nbsp;·&nbsp; ★4
+#### [convkit](https://github.com/shdwfruit/convkit) &nbsp;·&nbsp; Rust &nbsp;·&nbsp; ★17
 
 One command for everyday file conversion. Maps a source and target format onto an expert-tuned invocation of the right backend (ffmpeg, ImageMagick, LibreOffice, pandoc, or Typst) across **115 conversion pairs and 27 formats**.
 
